@@ -26,9 +26,12 @@ nav li {
 }
 
 nav li:hover {
-  background-color: var(--color-bg);
+  cursor: pointer;
+  border: var(--color-fg) 1px solid;
+  border-radius: 5px;
+  background-color: var(--color-bg-light);
   color: var(--color-fg);
-  box-shadow: 2px 4px 3px var(--color-bg);
+  box-shadow: 2px 4px 3px var(--color-bg-light);
   text-shadow: 1px 1px 1px var(--color-bg-light);
 }
 
