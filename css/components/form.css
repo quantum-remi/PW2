@@ -47,6 +47,7 @@ textarea {
   border-bottom: 2px solid var(--color-fg);
   outline: none;
   caret-color: var(--color-fg);
+  resize: none;
 }
 
 button {
