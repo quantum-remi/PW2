@@ -1,10 +1,9 @@
-
 nav {
   height: 60px;
-  background-color: var(--color-bg); /* A darker background to resemble old computer screens */
+  background-color: var(--color-bg);
   position: sticky;
   top: 0;
-  font-family: "Courier", monospace; /* A monospace font to resemble coding */
+  font-family: "Courier", monospace;
 }
 
 nav ul {
@@ -16,33 +15,27 @@ nav ul {
 
 nav li {
   height: inherit;
-  width: 10%;
+  /* width: 10%; */
   font-variant: small-caps;
-  font-size: 1.8rem; /* Increased font size to make it higher */
+  font-size: 1.8rem;
   font-weight: 700;
   transition: background-color 0.2s ease-in-out;
-  display: flex; /* Added display flex to center the text */
-  justify-content: center; /* Centered the text horizontally */
-  align-items: center; /* Centered the text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
 nav li:hover {
-  background-color: var(--color-bg); /* A darker background color on hover to resemble old computer screens */
-  color: var(--color-fg); /* White text color on hover to resemble coding */
-  box-shadow: 2px 4px 3px var(--color-bg); /* A box shadow to give a retro feel */
-  text-shadow: 1px 1px 1px var(--color-bg-light); /* A text shadow to give a retro feel */
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  box-shadow: 2px 4px 3px var(--color-bg);
+  text-shadow: 1px 1px 1px var(--color-bg-light);
 }
 
 nav a {
   color: var(--color-fg);
   text-decoration: none;
   transition: color 0.2s ease-in-out;
-  margin: 0; /* Removed margin to center the text */
-  padding: 0; /* Removed padding to center the text */
-}
-
-nav a:hover {
-  color: var(--color-fg); /* A lighter text color on hover to resemble coding */
+  margin: 0;
+  padding: 0;
 }

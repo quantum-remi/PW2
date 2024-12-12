@@ -29,3 +29,6 @@
 /* paralax */
 
 @import url(paralax.css);
+
+/* fonts */
+@import url(components/fonts.css);

@@ -1,6 +1,6 @@
 h1 {
   font-size: 500%;
-  font-family: "Playwrite HR Lijeva", cursive;
+  font-family: "Merriweather", serif;
   text-shadow: 5px 5px 5px #0033;
   padding-top: 20%;
 }
@@ -27,7 +27,7 @@ li {
 }
 
 a {
-  font-family: "Fira Sans", serif;
+  font-family: "JetBrains Mono", serif;
   padding: 20px;
   text-decoration: none;
   color: whitesmoke;
@@ -35,6 +35,19 @@ a {
 }
 
 p {
+  font-family: "JetBrains Mono", serif;
   text-align: justify;
   padding-inline: 20%;
+}
+
+.jp {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
