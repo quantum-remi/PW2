@@ -1,0 +1,47 @@
+@media (max-width: 500px) {
+    nav {
+      height: 75px;
+      line-height: 75px;
+    }
+    h1 {
+      font-size: 200%;
+      padding-top: 50%;
+    }
+  
+    li {
+      font-size: 0.8rem;
+    }
+  
+    section {
+      justify-content: space-evenly;
+    }
+  
+    #imageData {
+      width: 20%;
+      height: 50%;
+    }
+  }
+  
+  @media (max-width: 800px) and (min-width: 500px) {
+    h1 {
+      padding-top: 50%;
+    }
+  
+    li {
+      font-size: 0.8rem;
+    }
+  
+    #para1,
+    #para2,
+    #para3 {
+      height: 30vh;
+    }
+  
+    #galeria > a > img {
+      width: 250px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }

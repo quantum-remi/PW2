@@ -1,0 +1,13 @@
+header {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 100vh;
+    text-align: center;
+    background-image: url(../../img/para.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--color-fg);
+}

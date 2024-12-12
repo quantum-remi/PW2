@@ -1,0 +1,26 @@
+:root {
+  /* Background and Foreground */
+  --color-bg: #282828;
+  --color-bg-dark: #1d2021;
+  --color-bg-light: #3c3836;
+  --color-fg: #ebdbb2;
+  --color-fg-dark: #a89984;
+
+  /* Gruvbox Accent Colors */
+  --color-red: #cc241d;
+  --color-green: #98971a;
+  --color-yellow: #d79921;
+  --color-blue: #458588;
+  --color-purple: #b16286;
+  --color-aqua: #689d6a;
+  --color-orange: #d65d0e;
+
+  /* Muted Colors */
+  --color-red-muted: #fb4934;
+  --color-green-muted: #b8bb26;
+  --color-yellow-muted: #fabd2f;
+  --color-blue-muted: #83a598;
+  --color-purple-muted: #d3869b;
+  --color-aqua-muted: #8ec07c;
+  --color-orange-muted: #fe8019;
+}

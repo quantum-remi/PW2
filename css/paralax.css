@@ -1,0 +1,6 @@
+.paralax {
+    height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/para.png);
+}

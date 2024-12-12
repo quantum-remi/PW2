@@ -1,0 +1,11 @@
+main {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    padding: 20px;
+}
+
+section {}
+article {
+    padding: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,40 @@
+h1 {
+  font-size: 500%;
+  font-family: "Playwrite HR Lijeva", cursive;
+  text-shadow: 5px 5px 5px #0033;
+  padding-top: 20%;
+}
+
+h2 {
+  font-variant: small-caps;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  /* padding-inline: 10px; */
+  /*  padding-left: 20px; */
+
+  /*  float: left;    */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 110%;
+}
+
+a {
+  font-family: "Fira Sans", serif;
+  padding: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+}
+
+p {
+  text-align: justify;
+  padding-inline: 20%;
+}
